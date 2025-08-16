@@ -2,11 +2,6 @@ import streamlit as st
 from joblib import load
 import numpy as np
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
-
 # Load the model
 model = load('linear_regression_model.joblib')
 
